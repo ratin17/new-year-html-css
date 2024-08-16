@@ -1,0 +1,335 @@
+
+body{
+    margin: 0;
+    padding:0;
+}
+
+.primary{
+    margin:100px 100px 0px;
+    border-radius: 7px;
+}
+
+.banner{
+    margin-top: 50px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.3)),url('../resources/Banner-Image.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    color: white;
+    padding:60px 100px;
+}
+
+.center{
+    text-align: center;
+    align-items: center;
+}
+
+.banner>h4{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.banner>h1{
+    font-size: 90px;
+}
+
+.discount{
+    margin:100px 220px 0px;
+}
+
+.discount>img{
+    max-width:80%;
+}
+
+.off{
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.holiday{
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.category{
+    font-size: 38px;
+    font-weight: 600;
+    color:black;
+    margin-bottom: 10px;
+}
+
+
+.welcome{
+    min-height: 380px;
+    
+
+    background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.1)),url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    color: white;
+    padding:60px 100px;
+}
+
+.midnight{
+    font-size: 60px;
+    width:50%;
+}
+
+.desc{
+    font-size: 20px;
+    width:55%;
+}
+
+.join-now{
+    font-size: 20px;
+    background:none;
+    border:none;
+    color:white;
+    margin:30px;
+}
+
+.event{
+    background: linear-gradient(to bottom, #f3afdc, #fafafa);
+    padding:80px 300px;
+    font-size: 25px;
+}
+
+.event>h3>.key{
+    color:red;
+}
+
+.event button{
+    background-color: red;
+    padding: 12px 30px;
+    border:none;
+    color: white;
+    font-size: 17px;
+    border-radius: 10px;
+    margin-top: 17px;
+}
+
+.offer{
+    display: flex;
+    gap:50px;
+    align-items: center;
+}
+
+.img-round{
+    border: 12px solid red;
+    border-radius: 50%
+}
+.img-round>img{
+    margin:25px;
+}
+
+.coming h3{
+    font-size: 25px;
+    color:red;
+    margin-bottom: 5px;
+    padding-bottom: 0px;
+}
+
+.coming h2{
+    margin-top: 5px;
+    padding-top: 0px;
+    font-size: 40px;
+}
+
+.coming p{
+    font-size: 25px;
+}
+
+.year h2{
+    font-size: 35px;
+    color:red;
+}
+
+
+.promo-banner {
+    margin-top: 450px;
+
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-image: url('../resources/Rectangle2.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.box-image {
+    height: 300%;
+    width:550px;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    z-index: 1;
+}
+
+.girl-image {
+    height:300%;
+    width:400px;
+    position:absolute;
+    right:0px;
+    bottom:0;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.discount-image {
+    position:absolute;
+    bottom:300px;
+    right:300px;
+    width:200px;
+    height: 200px;
+    z-index: 3;
+}
+
+.holiday>h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.holiday>h2{
+    margin-top: 0px;;
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 10px;;
+}
+
+.holiday>h2>span{
+    color:red;
+}
+
+.holiday>p{
+    width:70%;
+    margin:5px auto;
+}
+
+.gifts{
+    margin-bottom: 5px;
+    font-size:20px;
+    color:red;
+
+}
+
+.port{
+    font-size:50px;
+    font-weight: 800;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.portfolio>p{
+    margin-bottom: 40px;
+    width: 70%;
+}
+
+.row{
+    margin-top:2%;
+    width:100%;
+    display:flex;
+    gap:2%;
+}
+
+.card{
+    width:32%
+}
+
+.contact{
+    align-items: center;
+    justify-content: center;
+    background-color: #f5dfee;
+    padding:60px 200px;
+}
+
+
+.form{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.form>input{
+    width:40%;
+    padding:25px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border:none;
+    margin:0px;
+}
+
+.form>button{
+    width:20%;
+    padding:25px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border:none;
+    background-color: red;
+    color:white;
+    margin:0px;
+}
+
+.contact>h2{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.contact>p{
+    font-size: 20px;
+}
+
+
+footer{
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+    padding:50px 90px;
+    font-size: 25px;
+}
+
+footer>section{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:25px 0px;
+}
+
+.phone{
+    margin-right: 120px;
+}
+
+.phone>div{
+    display: flex;
+    align-items: center;
+}
+
+.phone>div>p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.phone img{
+    width:20px;
+    height:20px;
+    margin-right: 15px;
+}
+
+.social{
+    justify-content: center;
+}
+
+.social>img{
+    margin-left: 20px;
+}
+
+.copyright button{
+    color:white;
+    font-size: 20px;
+    border:none;
+    background-color: black;
+}
+
